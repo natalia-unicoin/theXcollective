@@ -9,21 +9,21 @@ const HowItWorks = () => {
             id: "01",
             title: "Apply",
             description: "Submit your profile. We curate a diverse group of creators and builders who share our vision.",
-            image: "/assets/hiw-new-1.jpg",
+            image: "assets/hiw-new-1.jpg",
             color: "#e66222" // Orange
         },
         {
             id: "02",
             title: "Connect",
             description: "Access the private discord, attend exclusive events, and meet your co-conspirators.",
-            image: "/assets/hiw-new-2.jpg",
+            image: "assets/hiw-new-2.jpg",
             color: "#317788" // Teal
         },
         {
             id: "03",
             title: "Build & Earn",
             description: "Launch projects, contribute to the ecosystem, and earn tokens for your impact.",
-            image: "/assets/hiw-new-3.jpg",
+            image: "assets/hiw-new-3.jpg",
             color: "#c0dee8" // Light Blue
         }
     ];

@@ -6,25 +6,25 @@ const FourWays = () => {
         {
             title: "Creator",
             description: "Create content, art, and experiences. Monetize your passion directly.",
-            image: "/assets/lifestyle-1.jpg",
+            image: "assets/lifestyle-1.jpg",
             color: "#e66222" // Orange (was Pink)
         },
         {
             title: "Builder",
             description: "Develop tools, apps, and infrastructure for the ecosystem.",
-            image: "/assets/lifestyle-2.jpg",
+            image: "assets/lifestyle-2.jpg",
             color: "#317788" // Teal (was Blue)
         },
         {
             title: "Investor",
             description: "Support projects you believe in and share in their success.",
-            image: "/assets/lifestyle-3.jpg",
+            image: "assets/lifestyle-3.jpg",
             color: "#c0dee8" // Light Blue (was Green)
         },
         {
             title: "Connector",
             description: "Bring people together. Community managers and event organizers.",
-            image: "/assets/lifestyle-4.jpg",
+            image: "assets/lifestyle-4.jpg",
             color: "#ebe462" // Yellow
         }
     ];

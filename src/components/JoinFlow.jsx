@@ -7,7 +7,7 @@ const JoinFlow = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/assets/lifestyle-hero.jpg"
+                    src="assets/lifestyle-hero.jpg"
                     alt="Join Background"
                     className="w-full h-full object-cover"
                 />

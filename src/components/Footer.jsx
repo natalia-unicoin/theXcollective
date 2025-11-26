@@ -14,7 +14,7 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className="md:col-span-4">
                         <div className="w-48 mb-6">
-                            <img src="/assets/logo-full.png" alt="The X Collective" className="w-full h-auto" />
+                            <img src="assets/logo-full.png" alt="The X Collective" className="w-full h-auto" />
                         </div>
                         <p className="text-gray-500 leading-relaxed max-w-sm mb-8">
                             Redefining wealth through community, creativity, and shared ownership.

@@ -7,7 +7,7 @@ const Hero = () => {
             {/* Background Image - No Overlay */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/assets/hero-lifestyle-2.jpg"
+                    src="assets/hero-lifestyle-2.jpg"
                     alt="Hero Background"
                     className="w-full h-full object-cover"
                 />

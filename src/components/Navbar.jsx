@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="container mx-auto px-6 py-6 flex justify-between items-center">
                 {/* Logo */}
                 <div className="w-48">
-                    <img src="/assets/logo-full.png" alt="The X Collective" className="w-full h-auto" />
+                    <img src="assets/logo-full.png" alt="The X Collective" className="w-full h-auto" />
                 </div>
 
 

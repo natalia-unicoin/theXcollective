@@ -10,7 +10,7 @@ const FoundingMember = () => {
                     <div className="w-full md:w-1/2">
                         <div className="relative aspect-[4/5] rounded-3xl overflow-hidden">
                             <img
-                                src="/assets/founding-lifestyle.jpg"
+                                src="assets/founding-lifestyle.jpg"
                                 alt="Founding Member"
                                 className="w-full h-full object-cover"
                             />
