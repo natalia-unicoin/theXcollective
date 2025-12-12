@@ -277,7 +277,7 @@ const BentoItem = ({ item, mainColor }: { item: any; mainColor: string }) => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className={`relative rounded-3xl overflow-hidden p-8 flex flex-col justify-between group ${sizeClasses[item.size]} ${textColor}`}
+            className={`relative rounded-3xl overflow-hidden p-8 flex flex-col justify-between group ${sizeClasses[item.size as keyof typeof sizeClasses]} ${textColor}`}
             style={{ backgroundColor: hasImage ? '#f3f4f6' : bgColor }}
         >
             {hasImage && (
