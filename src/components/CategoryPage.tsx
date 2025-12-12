@@ -136,7 +136,7 @@ const CategoryPage = ({ type }: CategoryPageProps) => {
                                             src={getImagePath(story.image)}
                                             alt={story.title}
                                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                                            onError={(e) => {
+                                            onError={(e: any) => {
                                                 e.target.style.display = 'none';
                                                 e.target.nextSibling.style.display = 'none'; // Hide gradient
                                                 e.target.parentElement.style.backgroundColor = data.color;
