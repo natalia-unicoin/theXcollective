@@ -1,7 +1,16 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'theXcollective'; // Your GitHub repo name
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
+  images: {
+    unoptimized: true, // Required for static export
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;
