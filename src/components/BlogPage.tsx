@@ -73,7 +73,7 @@ const BlogPage = () => {
                             viewport={{ once: true }}
                             className="group cursor-pointer"
                         >
-                            <Link to={`/blog/${post.id}`}>
+                            <Link href={`/blog/${post.id}`}>
                                 <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-8 bg-gray-100">
                                     <img
                                         src={getImagePath(post.image)}
