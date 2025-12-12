@@ -7,7 +7,7 @@ import { getImagePath } from '@/utils/image';
 const HowItWorks = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
     const [activeIndex, setActiveIndex] = useState(0);
-    const scrollContainerRef = React.useRef(null);
+    const scrollContainerRef = React.useRef<HTMLDivElement>(null);
 
     const steps = [
         {
