@@ -238,7 +238,7 @@ const CategoryPage = ({ type }: CategoryPageProps) => {
 
 // Sub-components
 
-const ScrollRevealText = ({ text, index, color }) => {
+const ScrollRevealText = ({ text, index, color }: { text: string; index: number; color: string }) => {
     return (
         <motion.p
             initial={{ opacity: 0, y: 50 }}
@@ -252,7 +252,7 @@ const ScrollRevealText = ({ text, index, color }) => {
     );
 };
 
-const BentoItem = ({ item, mainColor }) => {
+const BentoItem = ({ item, mainColor }: { item: any; mainColor: string }) => {
     // Size classes
     const sizeClasses = {
         large: "md:col-span-2 md:row-span-2",
@@ -286,9 +286,9 @@ const BentoItem = ({ item, mainColor }) => {
                         src={getImagePath(item.image)}
                         alt={item.title}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80"
-                        onError={(e) => {
+                        onError={(e: any) => {
                             e.target.style.display = 'none';
-                            e.target.parentElement.style.backgroundColor = bgColor;
+                            e.target.parentElement.style.backgroundColor = mainColor || "#f3f4f6";
                         }}
                     />
                     <div className={`absolute inset-0 ${item.theme === 'light' ? 'bg-white/10' : 'bg-black/20'}`} />
