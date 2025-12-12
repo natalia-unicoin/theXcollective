@@ -4,8 +4,8 @@ import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 
-const StatItem = ({ value, label, suffix = "", color }) => {
-    const ref = useRef(null);
+const StatItem = ({ value, label, suffix = "", color }: { value: string | number; label: string; suffix?: string; color: string }) => {
+    const ref = useRef<HTMLDivElement>(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
     const [count, setCount] = useState(0);
 
