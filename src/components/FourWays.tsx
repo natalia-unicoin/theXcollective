@@ -7,7 +7,7 @@ import { getImagePath } from '@/utils/image';
 
 const FourWays = () => {
     const [activeIndex, setActiveIndex] = React.useState(0);
-    const scrollContainerRef = React.useRef(null);
+    const scrollContainerRef = React.useRef<HTMLDivElement>(null);
 
     const ways = [
         {
