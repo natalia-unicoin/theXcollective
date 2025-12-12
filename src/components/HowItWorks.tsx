@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { getImagePath } from '@/utils/image';
 
 const HowItWorks = () => {
-    const [hoveredIndex, setHoveredIndex] = useState(null);
+    const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     const [activeIndex, setActiveIndex] = useState(0);
     const scrollContainerRef = React.useRef<HTMLDivElement>(null);
 
